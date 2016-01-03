@@ -68,13 +68,14 @@ nav li > ul > li:hover > ul  {
 #main_body {
   width: 100%;
   height: calc(100vh - 2em);
+  background: linear-gradient(to right, #999 0%, white 25%);
 }
 
 #main_frame {
   width: 100%;
-  border: 0;
-  margin: 2px;
   height: 100%;
+  border: 0;
+  margin: 10px;
   overflow: auto;
 }
 
