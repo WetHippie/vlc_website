@@ -2,29 +2,32 @@
 <html lang="en">
 <head>
   <meta name="robots" CONTENT="all" />
-  <meta charset="utf-8"/>
   <link href="vlc.css" rel="stylesheet"/>
-  <title>VLC is coming back</title>
+  <link rel="icon" type="image/png" href="/favicon.png"/>
+  <title>The Virtual Light Company's Home</title>
 </head>
 <body>
-<header>
-<div id="menu">
+<nav>
 <ul>
-<li class="active"><a href="#"><span>Home</span></a></li>
-<li><a href="libraries.html"><span>Libraries</span></a></li>
-<li><a href="history.html"><span>History</span></a></li>
-<li><a href="resources.html"><span>Resources</span></a></li>
-<li class="last"><a href="justin/"><span>Justin</span></a></li>
+  <li><a href="main.html" target="content_area">Home</a></li>
+  <li><a href="libraries.html" target="content_area">Open Source</a>
+    <ul>
+      <li><a href="vlc_common.html" target="content_area">VLC Common</a></li>
+      <li><a href="urilib.html" target="content_area">URI Lib</a></li>
+      <li><a href="imageloaders.html" target="content_area">Java Imageloaders</a></li>
+    </ul>
+  </li>
+  <li><a href="history.html" target="content_area">History</a>
+  <li><a href="resources.html" target="content_area">Resources</a></li>
+  <li><a href="justin/index.html" target="parent">Justin</a></li>
 </ul>
-</div>
-</header>
-<main id="page_content">
-<p>Site nuked - coming back shortly.</p>
-<p>Got tired of all the old Joomla problems and want to play with AngularJS 2.0, so rewriting everything - again!</p>
-<p>- Justin 1 Nov  2015</p>
+</nav>
+<main id="main_body">
+<iframe id="main_frame" src="main.html" name="content_area">
+</iframe>
 </main>
-<footer>
-<div><p class="footer-text">&copy; The Virtual Light Company 2015</p></div>
+<footer class="vlc_footer">
+<div>&copy; The Virtual Light Company 2015-</div>
 </footer>
 </body>
 </html>
